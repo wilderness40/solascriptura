@@ -93,7 +93,7 @@ prevButton.addEventListener('click', () => minusPage(e, e.target.id))
 
 // 하단 페이지 이동하기 기능
 let num = 0
-let plusNum = 20
+let plusNum = 10
 let pages = chapter.slice(num, num + plusNum)
 let firstPage = []
 

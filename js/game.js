@@ -1,5 +1,8 @@
 // 전역변수
 const main = document.querySelector('main')
+const burgerButton = document.querySelector('.material-symbols-outlined')
+const navButtons = document.querySelector('.nav-btns')
+const mobileBackground = document.querySelector('.mobile-background')
 
 let charIndex = 0
 let index = 1
@@ -208,4 +211,9 @@ select.addEventListener('change',(e)=>{
 (async () => await getBibleText())()
 
 
- 
+ // 모바일 버거버튼 클릭시
+burgerButton.addEventListener('click',(e) => {
+    console.log(e.target, '버튼')
+    navButtons.classList.toggle('show')
+    mobileBackground.classList.toggle('show')
+})

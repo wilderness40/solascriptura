@@ -142,12 +142,10 @@ select{
     left: 0;
     z-index: 20;
 }
-
+.show{
+    display: block;}
 @media(max-width:615px){
     select{bottom: 35px;}
-}
-.show{
-    display: block;
 }
 @media (max-width: 420px) {
     .show{

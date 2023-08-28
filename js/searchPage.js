@@ -4,6 +4,9 @@ const main = document.querySelector('main')
 const footer = document.querySelector('footer')
 const contents = document.querySelector('.contents')
 const moreViewBtn = document.querySelector('.moreview-btn')
+const burgerButton = document.querySelector('.material-symbols-outlined')
+const navButtons = document.querySelector('.nav-btns')
+const mobileBackground = document.querySelector('.mobile-background')
 let serverData = []
 
 // 서버데이터 가져오기
@@ -69,4 +72,10 @@ async function showSearchBible(){
 showSearchBible()
 
  
+ // 모바일 버거버튼 클릭시
+burgerButton.addEventListener('click',(e) => {
+    console.log(e.target, '버튼')
+    navButtons.classList.toggle('show')
+    mobileBackground.classList.toggle('show')
+})
 
