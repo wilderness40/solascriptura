@@ -3,6 +3,9 @@ const mainWrapper = document.querySelector('.wrapper')
 const displayBible = document.querySelector('.scripture')
 const scriptureList = document.querySelector('.scripture-list')
 const buttons = document.querySelector('.buttons')
+const burgerButton = document.querySelector('.material-symbols-outlined')
+const navButtons = document.querySelector('.nav-btns')
+const mobileBackground = document.querySelector('.mobile-background')
 
 let serverData = []
 let chapter = []
@@ -217,3 +220,9 @@ if(!(event && window.location.href.includes('#'))){
 }
    
 
+// 모바일 버거버튼 클릭시
+burgerButton.addEventListener('click',(e) => {
+    console.log(e.target, '버튼')
+    navButtons.classList.toggle('show')
+    mobileBackground.classList.toggle('show')
+})

@@ -21,9 +21,9 @@ header h1 a{
     font-size: 2rem;
     color: #fff;
 }
-/* header .menu-btn{ 
-     padding-left: 40rem; 
-} */
+header .nav-btns{ 
+    display: flex;
+}
 header .menu-btn a{ 
     font-size: 1.1rem;
     color: #fff;

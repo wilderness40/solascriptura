@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url(../css/reset.css);
 @import url(../css/footer.css);
+@import url(../css/mobile.css);
 header {
   width: 100vw;
   height: 100px;
@@ -103,7 +104,7 @@ main .wrapper {
 }
 
 main .wrapper form {
-  width: 68rem;
+  width: 50rem;
   height: 100px;
   display: flex;
   flex-shrink: 1;
@@ -303,9 +304,13 @@ main .wrapper .multi-contents .pray-note {
     display: none;
   }
   header .menu-btn {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
+  }
+  header .menu-btn a {
+    width: 100%;
   }
   header .login-btn {
     gap: 15px;
@@ -322,8 +327,10 @@ main .wrapper .multi-contents .pray-note {
     color: #fff;
     cursor: pointer;
   }
+  main .wrapper form {
+    width: 100%;
+  }
   #serachbible {
-    width: 19rem;
     font-size: 1.2rem;
     left: 0;
     transform: none;
