@@ -23,12 +23,15 @@ header h1 a{
 }
 header .nav-btns{ 
     display: flex;
+    align-items: center;
+}
+header .menu-btn{
+    margin-right: 5rem;
 }
 header .menu-btn a{ 
     font-size: 1.1rem;
     color: #fff;
     padding: 0 1rem;
-    margin-left: 1rem;
 }
 header .menu-btn a:hover{
     opacity: .8;
@@ -37,6 +40,7 @@ header .menu-btn a:hover{
 header .login-btn{
     display: flex;
     flex-shrink: 1;
+    gap: 20px;
 }
 header .login-btn a{ 
     font-size: 1.1rem;
@@ -68,4 +72,7 @@ header .login-btn a:hover{
     position: absolute;
     top: 0; left: 0;
     z-index: 1;
+}
+.material-symbols-outlined{
+    display: none;
 }

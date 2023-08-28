@@ -70,6 +70,10 @@ header .menu-btn a{
     margin-left: 0;
     width: 100%;
 }
+header .menu-btn a:hover{
+  opacity: .8;
+  border: none;
+}
 header .login-btn{
     margin: 0 auto;
     gap: 15px;
@@ -127,6 +131,14 @@ header .login-btn{
       z-index: 0;
       display: none;
   }
-
+.loading-Phrases{
+  font-size: 1.2rem;
+}
+.contents h4{
+  font-size: 1rem;
+}
+.contents p{
+  font-size: 1rem;
+}
 
 }

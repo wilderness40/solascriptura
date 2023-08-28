@@ -27,6 +27,7 @@ header h1 a{
 }
 header .nav-btns{ 
     display: flex;
+    align-items: center;
 }
 header .menu-btn{
     margin-right: 5rem;
@@ -117,27 +118,27 @@ main .wrapper  input{
 main .wrapper  input:focus{
     background: rgba(255,255,255,.7);
 }
-main .wrapper .input-btn{
-    display: inline-block;
-    position: relative;
-    top: -8rem;  // form 태그 있을때 bottom 170px
-    right: -8rem; // 화면사이즈에 따라 왔다갔다 하고 고정이 안됨 form 태그 있을때 100px
-    transform: translate(-50%, -50%);
-    width: 65px;
-    height: 60px;
-    padding: 0 .8rem;
-    border: none;
-    border-radius: 0 .5rem .5rem 0;
-    font-size: 1.2rem;
-    background-color: rgb(23, 70, 158);
-    color: #fff;
-    z-index: 5;
-}
-main .wrapper  .input-btn:hover{
-    background-color: rgb(44, 104, 214);
-    font-weight: 600;
-    cursor: pointer;
-}
+// main .wrapper .input-btn{
+//     display: inline-block;
+//     position: relative;
+//     top: -8rem;  // form 태그 있을때 bottom 170px
+//     right: -8rem; // 화면사이즈에 따라 왔다갔다 하고 고정이 안됨 form 태그 있을때 100px
+//     transform: translate(-50%, -50%);
+//     width: 65px;
+//     height: 60px;
+//     padding: 0 .8rem;
+//     border: none;
+//     border-radius: 0 .5rem .5rem 0;
+//     font-size: 1.2rem;
+//     background-color: rgb(23, 70, 158);
+//     color: #fff;
+//     z-index: 5;
+// }
+// main .wrapper  .input-btn:hover{
+//     background-color: rgb(44, 104, 214);
+//     font-weight: 600;
+//     cursor: pointer;
+// }
 // 랜덤말씀
 main .wrapper .random-paragraph{
     width: 100%;
@@ -294,11 +295,14 @@ main .wrapper .multi-contents .pray-note{
     header .menu-btn a{
         width: 100%;
     }
+    header .menu-btn a:hover{
+        opacity: .8;
+        border: none;
+    }
     header .login-btn{
         margin: 0 auto;
         gap: 15px;
         margin-top: 5rem;
-        // margin-left: -1.5rem;
         text-align: center;
     }
     header h1 a{

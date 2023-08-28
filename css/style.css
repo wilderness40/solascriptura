@@ -28,6 +28,7 @@ header h1 a {
 
 header .nav-btns {
   display: flex;
+  align-items: center;
 }
 
 header .menu-btn {
@@ -128,29 +129,6 @@ main .wrapper input {
 
 main .wrapper input:focus {
   background: rgba(255, 255, 255, 0.7);
-}
-
-main .wrapper .input-btn {
-  display: inline-block;
-  position: relative;
-  top: -8rem;
-  right: -8rem;
-  transform: translate(-50%, -50%);
-  width: 65px;
-  height: 60px;
-  padding: 0 0.8rem;
-  border: none;
-  border-radius: 0 0.5rem 0.5rem 0;
-  font-size: 1.2rem;
-  background-color: rgb(23, 70, 158);
-  color: #fff;
-  z-index: 5;
-}
-
-main .wrapper .input-btn:hover {
-  background-color: rgb(44, 104, 214);
-  font-weight: 600;
-  cursor: pointer;
 }
 
 main .wrapper .random-paragraph {
@@ -314,6 +292,10 @@ main .wrapper .multi-contents .pray-note {
   }
   header .menu-btn a {
     width: 100%;
+  }
+  header .menu-btn a:hover {
+    opacity: 0.8;
+    border: none;
   }
   header .login-btn {
     margin: 0 auto;

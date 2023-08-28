@@ -80,8 +80,6 @@ function createTextField(){
     }
 }
 
-
-
 // 시편본문가져오기
 async function getBibleText(){
    await getBibleData()
@@ -127,7 +125,7 @@ textWindow.addEventListener('keyup',e=>{
         textSpan[charIndex].classList.add('hide')}
 
     if(textSpan[charIndex]?.innerText === typedText[charIndex]){ // 글자가 일치할 경우
-        textSpan[charIndex].innerText = typedText[charIndex]
+        textSpan[charIndex].innerText === typedText[charIndex]
         textSpan[charIndex].classList.add('correct')
         textSpan[charIndex].classList.remove('incorrect')
         charIndex++ 
@@ -178,11 +176,13 @@ prevButton.addEventListener('click', (e)=>{
  // 다시버튼
 retryButton.addEventListener('click',(e)=>{
     e.preventDefault()
-    if(index !== 1){
-    index = 1
+// 작성한 내용만 지우기, 커서를 원위치 하는 것을 구현해야함 
+    // inputDiv.innerText =''
+    // textSpan.forEach(span => span.classList.remove('incorrect'))
+// 일단은 페이지가 새로고침 되는 것으로
     main.replaceChildren()
-    getBibleText()
-}
+    getBibleText(index)
+
 })
 
 // 셀렉트 옵션넣기
@@ -205,7 +205,7 @@ select.addEventListener('change',(e)=>{
     index = e.target.value
     console.log(e.target.childNodes)
     main.replaceChildren()
-    getBibleText(updateIndex)
+    getBibleText()
 })
 }
 (async () => await getBibleText())()
