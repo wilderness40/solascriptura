@@ -148,14 +148,16 @@ pushstate를 활용하여 뒤로가기 기능을 구현했으나 앞으로가기
 ### 프로젝트 설치 및 실행 방법
 ------------
 프로젝트를 위해 사용한 기술스택은 다음과 같습니다.
+```
 html 
 css 
 javascript 
 node.js 18.17.0
 mongoDB 6.0.8 
 mongosh 1.10.3 
-
+```
 package.json 설치목록
+```javascript
 {  
     "axios": "^1.4.0",
     "cors": "^2.8.5",
@@ -166,7 +168,7 @@ package.json 설치목록
     "mongoose": "^7.4.3",
     "morgan": "^1.10.0"
 }
-
+```
 ### 프로젝트 사용방법
 ------------
 1. 깃허브에 있는  midbar.bibles.json 파일을 MongoDB의 db.midbar.bibles에 업로드 합니다.
@@ -176,13 +178,14 @@ package.json 설치목록
    
 ### 출처 및 참고사이트
 ------------
-1.데이터 출처
-1) 성경데이터 : [갓피플게시글](https://godpeople.or.kr/index.php?module=file&act=procFileDownload&file_srl=3016468&sid=91debabb17f7f69ad0e7e6a6bff8de38)
-2) 랜덤구절이미지 : [Unsplash API](https://api.unsplash.com/)
-
-본 사이트의 성경_개역한글판의 저작권은 대한성서공회에 있습니다.
+1. 데이터 출처
+- 성경데이터 : [갓피플게시글](https://godpeople.or.kr/index.php?module=file&act=procFileDownload&file_srl=3016468&sid=91debabb17f7f69ad0e7e6a6bff8de38)
+- 랜덤구절이미지 : [Unsplash API](https://api.unsplash.com/)
 
 2. 랜덤구절 배경 외 사진 출처: [pixabay](https://pixabay.com/ko/)
+   
 3. 필사기능 벤치마킹 사이트 :
    https://recordofwonseok.tistory.com/345
    https://new.typing.works/
+   
+본 사이트의 성경_개역한글판의 저작권은 대한성서공회에 있습니다.
