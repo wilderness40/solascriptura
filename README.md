@@ -24,10 +24,19 @@ Sola-Scriptura 라틴어로 '오직 성경으로'라는 뜻 입니다.
 
 **본 사이트는 아래의 기능을 제공합니다**
 
-1. 성경을 읽을 수 있습니다.   
+1. 성경을 읽을 수 있습니다.
+
+![성경읽기](https://github.com/wilderness40/solascriptura/assets/124757916/8f86bac1-a014-4a7c-bd82-92e59c036bd3)
+
 2. 랜덤으로 성경구절을 볼 수 있습니다.
-3. 성경 본문을 검색할 수 있습니다. (현재는 본문 내용만 검색가능)   
+3. 성경 본문을 검색할 수 있습니다. (현재는 본문 내용만 검색가능)
+
+![랜덤구절&성경본문검색](https://github.com/wilderness40/solascriptura/assets/124757916/4362c93e-2992-4e7c-adac-7bb68c2b5dd3)
+ 
 4. 필사를 할 수 있습니다. (현재는 시편만 가능)
+
+![시편필사](https://github.com/wilderness40/solascriptura/assets/124757916/07da84c1-ed3b-4540-a8a0-49fbec1a90be)
+
 5. 나의 기도제목을 작성할 수 있습니다 (미구현)
 6. 성경용어와 관련된 간단한 게임을 할 수 있습니다. (미구현)
 
