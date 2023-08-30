@@ -1,5 +1,5 @@
 # Sola-Scriptura 
-## 프로젝트명과 기획동기
+### 프로젝트명과 기획동기
 ------------
 Sola-Scriptura 라틴어로 '오직 성경으로'라는 뜻 입니다.
 루터의 종교개혁 때 [5대 sola](https://ko.wikipedia.org/wiki/%EB%8B%A4%EC%84%AF_%EC%86%94%EB%9D%BC)가 있었는데 그 중 하나입니다. 
